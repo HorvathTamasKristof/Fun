@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Súlyzós</string>
+		<key>short-description</key>
+		<string>Közepes nehézség</string>
+		<key>long-description</key>
+		<string>Az edzés lényege, hogy stimuláljuk az izmokat arra, hogy tápanyagokat vegyenek fel. Az edzésterhelés hatására az éppen edzett izomban található szénhidrátok (glikogén) kiürülnek, mert ezt használjuk üzemanyagnak, valamint a fehérjeszerkezet sérül. Így az izomban fehérje- (aminosav) és glikogénhiány lép fel. Edzés után azonnal elkezdődik a tápanyagok felvétele, ezért nagyon fontos megfelelően táplálkozni. A terhelés hatására az izom kompenzál, több tápanyagot vesz fel, mint amennyit leadott. Minél több tápanyag van az izomban (minél több fehérje épül be, és minél több szénhidrátot tárol) annál nagyobb lesz az izom. Ehhez a terhelést hosszú távon növelni kell – egyre nagyobb súly, nagyobb intenzitás.</string>
+		<key>image-name</key>
+		<string>strength.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kardió</string>
+		<key>short-description</key>
+		<string>Kezdő</string>
+		<key>long-description</key>
+		<string>A kardio mozgás olyan gyakorlatokat foglal magába, amely növeli a pulzusszámot, nem mindegy azonban, hogy milyen intervallumot érünk el egy-egy mozgásfajtával. Ha hosszantartó, egyenletes, gyenge, vagy csak közepesen megterhelő mozgást végzünk, a zsír égetésére mozgósítjuk a szervezetünket. Amennyiben dinamikus mozgást végzünk, mely rövid ideig tart, de megterheli a szervezetet, szálkásítás helyett az izmainkat növeljük. A hosszantartó kardio mozgás a fogyás, szálkásítás egyik legnépszerűbb módszere, mellyel nemcsak látványos eredményt érünk el, de nagyon jó hatással van az egészségünkre is.</string>
+		<key>image-name</key>
+		<string>cardio.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>HIIT</string>
+		<key>short-description</key>
+		<string>Hatékony</string>
+		<key>long-description</key>
+		<string>HIIT edzésterv lényege a nagy erőbedobással végzett, nagyon megtolt, de nem túl hosszú edzéskörök, közbeiktatott rövid pihenőkkel. Annyira kimerítik az izmokat, hogy a szervezet regenerálódása még az edzés után bő 24 órával is rengeteg energiát emészt fel – már rég a kanapén nyöszörögsz, a szervezeted pedig még mindig őrült módjára szedi atomjaira a zsírdepókat, hogy az izmok glikogén raktárát pótolja: magyarul fogysz, pedig csak heversz ott.
+		Hogy visszaállítsa az alapállapotot, a testünk ahhoz is energiát használ fel. A testhőmérséklet, pulzus rendezése után következnek az energiaraktárak: a szervezet előbányássza a rosszabb időkre, hasra-fenékre eltett, jó kis szaftos zsírocskát, és gyorsan hozzáférhető szénhidráttá, glikogénné alakítja, amit viszont az izmokban tárol, hogy a következő edzésnél az izomsejteknek legyen mihez nyúlni a most elhasznált helyett. Ez történik, mikor az edzés után még egy nappal is pörög az anyagcseréd, és ettől nézel ki sokkal jobban.</string>
+		<key>image-name</key>
+		<string>crossfit.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Hasizom</string>
+		<key>short-description</key>
+		<string>Egyik legfontosabb</string>
+		<key>long-description</key>
+		<string>A test középső izmainak, ismertebb nevén törzs izmainak megerősítése az egészséges mozgás alapfeltétele. Ha jó eredményeket szeretnél elérni, akkor a test középtájéki izmait sem hanyagolhatod el, hiszen azok minden összetett mozgást igénylő gyakorlatnál elengedhetetlenül szükségesek. Ha nincsenek a törzsizmaid megerősítve, a mozgásodat sem tudod megfelelően kontrollálni. Ha nincsen az alsó hátizmod és a hasad izmai kellőképpen megerősítve, úgy előbb-utóbb sérüléseket szedsz majd össze, a gerinced egészségéről már nem is beszélve. Hiába van a fókusz látszólag a karokon, a lábakon, végezz bármilyen mozgást, a törzsizmaid dolgoznak főként, és ezt sose felejtsd el. A törzsizmok edzése mindenekelőtt, minden csak ezután következik, és nem utolsósorban egy újabb nyomós érv, hogy a test egészére kell dolgozni, nemcsak arra, amivel nem vagytok megelégedve.</string>
+		<key>image-name</key>
+		<string>abs.jpg</string>
+	</dict>
+</array>
+</plist>

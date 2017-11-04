@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028E49C61FADEF7300B47E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49C51FADEF7300B47E5A /* AppDelegate.swift */; };
+		028E49CB1FADEF7300B47E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E49C91FADEF7300B47E5A /* Main.storyboard */; };
+		028E49CD1FADEF7300B47E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028E49CC1FADEF7300B47E5A /* Assets.xcassets */; };
+		028E49D01FADEF7300B47E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E49CE1FADEF7300B47E5A /* LaunchScreen.storyboard */; };
+		028E49DC1FADF7F600B47E5A /* Workouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028E49DB1FADF7F600B47E5A /* Workouts.plist */; };
+		028E49DE1FADF82B00B47E5A /* WorkoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */; };
+		028E49E21FADFA7200B47E5A /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028E49C21FADEF7300B47E5A /* MyInsanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyInsanity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028E49C51FADEF7300B47E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028E49CA1FADEF7300B47E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028E49CC1FADEF7300B47E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028E49CF1FADEF7300B47E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		028E49D11FADEF7300B47E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028E49DB1FADF7F600B47E5A /* Workouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Workouts.plist; sourceTree = "<group>"; };
+		028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataManager.swift; sourceTree = "<group>"; };
+		028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028E49BF1FADEF7300B47E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028E49B91FADEF7300B47E5A = {
+			isa = PBXGroup;
+			children = (
+				028E49C41FADEF7300B47E5A /* MyInsanity */,
+				028E49C31FADEF7300B47E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028E49C31FADEF7300B47E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028E49C21FADEF7300B47E5A /* MyInsanity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028E49C41FADEF7300B47E5A /* MyInsanity */ = {
+			isa = PBXGroup;
+			children = (
+				028E49D81FADF1B000B47E5A /* Workouts */,
+				028E49C51FADEF7300B47E5A /* AppDelegate.swift */,
+				028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */,
+				028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */,
+				028E49C91FADEF7300B47E5A /* Main.storyboard */,
+				028E49CC1FADEF7300B47E5A /* Assets.xcassets */,
+				028E49CE1FADEF7300B47E5A /* LaunchScreen.storyboard */,
+				028E49D11FADEF7300B47E5A /* Info.plist */,
+			);
+			path = MyInsanity;
+			sourceTree = "<group>";
+		};
+		028E49D81FADF1B000B47E5A /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				028E49DB1FADF7F600B47E5A /* Workouts.plist */,
+			);
+			name = Workouts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028E49C11FADEF7300B47E5A /* MyInsanity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028E49D41FADEF7300B47E5A /* Build configuration list for PBXNativeTarget "MyInsanity" */;
+			buildPhases = (
+				028E49BE1FADEF7300B47E5A /* Sources */,
+				028E49BF1FADEF7300B47E5A /* Frameworks */,
+				028E49C01FADEF7300B47E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyInsanity;
+			productName = MyInsanity;
+			productReference = 028E49C21FADEF7300B47E5A /* MyInsanity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028E49BA1FADEF7300B47E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tamas Horvath";
+				TargetAttributes = {
+					028E49C11FADEF7300B47E5A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 028E49BD1FADEF7300B47E5A /* Build configuration list for PBXProject "MyInsanity" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028E49B91FADEF7300B47E5A;
+			productRefGroup = 028E49C31FADEF7300B47E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028E49C11FADEF7300B47E5A /* MyInsanity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028E49C01FADEF7300B47E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E49D01FADEF7300B47E5A /* LaunchScreen.storyboard in Resources */,
+				028E49CD1FADEF7300B47E5A /* Assets.xcassets in Resources */,
+				028E49DC1FADF7F600B47E5A /* Workouts.plist in Resources */,
+				028E49CB1FADEF7300B47E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028E49BE1FADEF7300B47E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028E49DE1FADF82B00B47E5A /* WorkoutDataManager.swift in Sources */,
+				028E49C61FADEF7300B47E5A /* AppDelegate.swift in Sources */,
+				028E49E21FADFA7200B47E5A /* WorkoutsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		028E49C91FADEF7300B47E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E49CA1FADEF7300B47E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028E49CE1FADEF7300B47E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028E49CF1FADEF7300B47E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028E49D21FADEF7300B47E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		028E49D31FADEF7300B47E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028E49D51FADEF7300B47E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PKRW86A3H;
+				INFOPLIST_FILE = MyInsanity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.bme.vik.aut.1718f1.horvathtamas.healthkit.MyInsanity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		028E49D61FADEF7300B47E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PKRW86A3H;
+				INFOPLIST_FILE = MyInsanity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.bme.vik.aut.1718f1.horvathtamas.healthkit.MyInsanity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028E49BD1FADEF7300B47E5A /* Build configuration list for PBXProject "MyInsanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E49D21FADEF7300B47E5A /* Debug */,
+				028E49D31FADEF7300B47E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028E49D41FADEF7300B47E5A /* Build configuration list for PBXNativeTarget "MyInsanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028E49D51FADEF7300B47E5A /* Debug */,
+				028E49D61FADEF7300B47E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028E49BA1FADEF7300B47E5A /* Project object */;
+}

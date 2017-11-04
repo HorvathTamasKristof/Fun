@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "ff2ed7652b6335f66a5d70a2359fdfad"
+build_time: [1509803191, 348077000]
+inputs:
+  "/Users/Tamas/Dropbox/A_Egyetem BME/IOS/Ha\u0301zi/MyInsanity/MyInsanity/WorkoutDataManager.swift": [1509802340, 0]
+  "/Users/Tamas/Dropbox/A_Egyetem BME/IOS/Ha\u0301zi/MyInsanity/MyInsanity/AppDelegate.swift": [1509802340, 0]
+  "/Users/Tamas/Dropbox/A_Egyetem BME/IOS/Ha\u0301zi/MyInsanity/MyInsanity/WorkoutsViewController.swift": [1509803191, 0]
