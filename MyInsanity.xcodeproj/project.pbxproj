@@ -11,9 +11,11 @@
 		028E49CB1FADEF7300B47E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E49C91FADEF7300B47E5A /* Main.storyboard */; };
 		028E49CD1FADEF7300B47E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028E49CC1FADEF7300B47E5A /* Assets.xcassets */; };
 		028E49D01FADEF7300B47E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E49CE1FADEF7300B47E5A /* LaunchScreen.storyboard */; };
-		028E49DC1FADF7F600B47E5A /* Workouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028E49DB1FADF7F600B47E5A /* Workouts.plist */; };
 		028E49DE1FADF82B00B47E5A /* WorkoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */; };
 		028E49E21FADFA7200B47E5A /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */; };
+		028E49E41FAE05CB00B47E5A /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49E31FAE05CB00B47E5A /* WorkoutDetailViewController.swift */; };
+		028E49EA1FAE18BC00B47E5A /* WorkoutEquipmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E49E91FAE18BC00B47E5A /* WorkoutEquipmentsViewController.swift */; };
+		028E49EE1FAE207900B47E5A /* Workouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028E49ED1FAE207900B47E5A /* Workouts.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +25,11 @@
 		028E49CC1FADEF7300B47E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028E49CF1FADEF7300B47E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028E49D11FADEF7300B47E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		028E49DB1FADF7F600B47E5A /* Workouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Workouts.plist; sourceTree = "<group>"; };
 		028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDataManager.swift; sourceTree = "<group>"; };
 		028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		028E49E31FAE05CB00B47E5A /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewController.swift; sourceTree = "<group>"; };
+		028E49E91FAE18BC00B47E5A /* WorkoutEquipmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEquipmentsViewController.swift; sourceTree = "<group>"; };
+		028E49ED1FAE207900B47E5A /* Workouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Workouts.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				028E49C51FADEF7300B47E5A /* AppDelegate.swift */,
 				028E49DD1FADF82B00B47E5A /* WorkoutDataManager.swift */,
 				028E49E11FADFA7200B47E5A /* WorkoutsViewController.swift */,
+				028E49E31FAE05CB00B47E5A /* WorkoutDetailViewController.swift */,
+				028E49E91FAE18BC00B47E5A /* WorkoutEquipmentsViewController.swift */,
 				028E49C91FADEF7300B47E5A /* Main.storyboard */,
 				028E49CC1FADEF7300B47E5A /* Assets.xcassets */,
 				028E49CE1FADEF7300B47E5A /* LaunchScreen.storyboard */,
@@ -73,7 +79,7 @@
 		028E49D81FADF1B000B47E5A /* Workouts */ = {
 			isa = PBXGroup;
 			children = (
-				028E49DB1FADF7F600B47E5A /* Workouts.plist */,
+				028E49ED1FAE207900B47E5A /* Workouts.plist */,
 			);
 			name = Workouts;
 			sourceTree = "<group>";
@@ -139,7 +145,7 @@
 			files = (
 				028E49D01FADEF7300B47E5A /* LaunchScreen.storyboard in Resources */,
 				028E49CD1FADEF7300B47E5A /* Assets.xcassets in Resources */,
-				028E49DC1FADF7F600B47E5A /* Workouts.plist in Resources */,
+				028E49EE1FAE207900B47E5A /* Workouts.plist in Resources */,
 				028E49CB1FADEF7300B47E5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +160,8 @@
 				028E49DE1FADF82B00B47E5A /* WorkoutDataManager.swift in Sources */,
 				028E49C61FADEF7300B47E5A /* AppDelegate.swift in Sources */,
 				028E49E21FADFA7200B47E5A /* WorkoutsViewController.swift in Sources */,
+				028E49E41FAE05CB00B47E5A /* WorkoutDetailViewController.swift in Sources */,
+				028E49EA1FAE18BC00B47E5A /* WorkoutEquipmentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
